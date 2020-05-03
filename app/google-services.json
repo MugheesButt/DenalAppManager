@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "520046232111",
+    "firebase_url": "https://appointment-manager-9ddc5.firebaseio.com",
+    "project_id": "appointment-manager-9ddc5",
+    "storage_bucket": "appointment-manager-9ddc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520046232111:android:44cc04be7a9dfd25d17cda",
+        "android_client_info": {
+          "package_name": "com.mughees.appointmentmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520046232111-9el6b3ckhavl4ls5u1n06gfd5tqsgmvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mughees.appointmentmanager",
+            "certificate_hash": "95fc346aaa18fda0ac7c24dbef01036d6bfcf0a6"
+          }
+        },
+        {
+          "client_id": "520046232111-b57qh8939j7t4p1apgiq2n87u2h77hiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIiuYfICZjTa2pR8XV1P2pRISbUwuPYDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520046232111-b57qh8939j7t4p1apgiq2n87u2h77hiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

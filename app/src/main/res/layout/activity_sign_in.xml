@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    >
+
+    <!-- Layer 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+        <!-- Layer 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/manager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appointment"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/but_blue"
+                android:textSize="40dp"
+                android:textStyle="italic|bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manager"
+                android:gravity="center"
+                android:text="Manager"
+                android:textColor="@color/but_blue"
+                android:textSize="40dp"
+                android:textStyle="italic|bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Layer 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:weightSum="6"
+        >
+
+        <!-- Layer 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14pt"
+                android:textStyle="italic|bold"
+                android:textColor="@color/but_blue"
+                >
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <!-- Layer 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="2"
+            android:orientation="vertical"
+            >
+
+            <!-- Layer 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="6"
+                >
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+
+                </LinearLayout>
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </LinearLayout>
+
+                    <!-- Layer 5 -->
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        >
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/EmailIn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/ic_user"
+                            android:hint="   Email"
+                            android:textColor="#0a1840"
+                            >
+
+                        </com.rengwuxian.materialedittext.MaterialEditText>
+
+                    </RelativeLayout>
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Layer 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="5"
+                >
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </LinearLayout>
+
+                    <!-- Layer 5 -->
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        >
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/PasswordIn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/ic_key"
+                            android:hint="   Password"
+                            android:inputType="textPassword"
+                            android:textColor="#0a1840"
+                            >
+
+                        </com.rengwuxian.materialedittext.MaterialEditText>
+
+                    </RelativeLayout>
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Layer 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+
+            <!-- Layer 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="10"
+                >
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    >
+
+                </LinearLayout>
+
+                <!-- Layer 4 -->
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    >
+
+                    <Button
+                        android:id="@+id/SignIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sign In"
+                        android:textSize="10pt"
+                        android:background="@drawable/round_corners_blue"
+                        android:textColor="#ffffff"></Button>
+
+                </RelativeLayout>
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Layer 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="8"
+                >
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    >
+
+                </LinearLayout>
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:weightSum="8"
+                    android:orientation="vertical"
+                    >
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        >
+
+                    </LinearLayout>
+
+                    <!-- Layer 5 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5"
+                        >
+
+                        <Button
+                            android:id="@+id/SignUp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Sign Up"
+                            android:textSize="8pt"
+                            android:background="@drawable/round_corners_blue"
+                            android:textColor="#ffffff"></Button>
+
+                    </RelativeLayout>
+
+                    <!-- Layer 5 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        >
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Layer 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="maroon">#FDECA6</color>
+    <color name="purple">#582C5C</color>
+    <color name="blue">#3f48cc</color>
+    <color name="dentist_bg">#697F8A</color>
+    <color name="teeth_bg">#A6DEEE</color>
+    <color name="silver_bg">#F1E4E4</color>
+    <color name="but_blue">#0a1840</color>
+</resources>

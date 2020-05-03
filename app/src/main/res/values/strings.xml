@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Appointment Manager</string>
+    <string name="patient_image">"android.resource://com.mughees.appointmentmanager/drawable/patient"</string>
+
+    <string name="ok"> OK </string>
+    <string name="dialog_title"> Choose Tooth/Teeth </string>
+    <string name="ok_label"> OK </string>
+    <string name="dismiss_label"> Dismiss </string>
+    <string name="clear_all_label"> Clear all </string>
+
+    <string-array name="treatments">
+
+        <item>Filling</item>
+        <item>Root Canal</item>
+        <item>Pulpotomy</item>
+        <item>Extraction</item>
+        <item>Surgical Extraction</item>
+        <item>Scaling</item>
+        <item>Whitening</item>
+        <item>Partial Denture</item>
+        <item>Complete Denture</item>
+        <item>CC Plate</item>
+        <item>Crown/Bridge</item>
+        <item>Implant</item>
+        <item>Apicetomy</item>
+        <item>Gingivectomy</item>
+        <item>Orthodotincs</item>
+        <item>Unknown</item>
+
+    </string-array>
+
+
+    <string-array name="teeth">
+
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>Right Upper Quadrant</item>
+        <item>Right Lower Quadrant</item>
+        <item>Left Upper Quadrant</item>
+        <item>Left Lower Quadrant</item>
+        <item>Upper Anterior</item>
+        <item>Upper Posterior</item>
+        <item>Lower Anterior</item>
+        <item>Lower Posterior</item>
+        <item>All</item>
+
+    </string-array>
+
+</resources>

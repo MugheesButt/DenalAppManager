@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mughees.appointmentmanager">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SimpleBlog"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".signing.SignUpPage"></activity>
+
+        <activity android:name=".signing.SignIn">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".profile.DentistProfile" />
+        <activity android:name=".appointments.AptPersonChoice" />
+        <activity android:name=".appointments.ViewAppointment" />
+        <activity android:name=".appointments.AppointmentsList" />
+        <activity android:name=".patients.ViewPatient" />
+        <activity android:name=".appointments.AddAppointment" />
+        <activity android:name=".appointments.AppointmentOption" />
+        <activity android:name=".patients.PatientsList" />
+        <activity android:name=".patients.AddPatient" />
+        <activity android:name=".patients.PatientsOption" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
